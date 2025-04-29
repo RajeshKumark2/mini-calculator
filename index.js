@@ -8,11 +8,11 @@ arr.forEach(button => {
             string = eval(string);
             input.value = string;
         }
-        else if(e.target.innerHTML == 'AC'){
+        else if(e.target.innerHTML == 'C'){
             string = "";
             input.value = string;
         }
-        else if(e.target.innerHTML == 'DLE') {
+        else if(e.target.innerHTML == 'D') {
             string = string.substring(0, string.length-1);
             input.value = string;
         }
